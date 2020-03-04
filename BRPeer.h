@@ -55,7 +55,7 @@ extern "C" {
 #if BITCOIN_TESTNET
 #define STANDARD_PORT 19335
 #else
-#define STANDARD_PORT 9333
+#define STANDARD_PORT 40010
 #endif
 
 #define SERVICES_NODE_NETWORK 0x01 // services value indicating a node carries full blocks, not just headers
@@ -63,7 +63,7 @@ extern "C" {
 #define SERVICES_NODE_BCASH   0x20 // https://github.com/Bitcoin-UAHF/spec/blob/master/uahf-technical-spec.md
     
 #define BR_VERSION "175"
-#define USER_AGENT "/loaf-android:" BR_VERSION "/"
+#define USER_AGENT "/slice:" BR_VERSION "/"
 
 // explanation of message types at: https://en.bitcoin.it/wiki/Protocol_specification
 #define MSG_VERSION     "version"
