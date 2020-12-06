@@ -65,7 +65,9 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-    "slice.alltheco.in."
+    "node1.slicex.cc",
+    "node2.slicex.cc",
+    "node3.slicex.cc"
 };
 #endif
 
